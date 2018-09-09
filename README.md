@@ -3,7 +3,7 @@
 This project is a bear-bones development board for the W5500.  The goal is to allow maximum configurability during prototyping by having only essential components on the board, with the rest of the pins on a 2.54mm header.
 
 ## Media
-![3D Rendering](DevBoard_W5500_Media/DevBoard_W5500_Render.JPG?raw=true)
+![3D Rendering](DevBoard_W5500_Media/DevBoard_W5500_Render.png?raw=true)
 
 ## Project Contents
 -  DevBoard_W5500_KiCAD - KiCad PCB and schematic files
