@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\eeale\Dropbox\Projects\Projects_PCB\DevBoard_W5500\DevBoard_W5500_KiCAD\DevBoard_W5500.sch</source>
+    <date>2018-09-08 18:48:35</date>
+    <tool>Eeschema (5.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>W5500 Development Board</title>
+        <company>Alex M.</company>
+        <rev>1</rev>
+        <date>2018-09-08</date>
+        <source>DevBoard_W5500.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R2">
+      <value>12.4k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">311-12.4KHRCT-ND </field>
+        <field name="Tolerance">±1%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B95CB0E</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1907-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B95EFD1</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>25MHz</value>
+      <footprint>Crystals:Crystal_SMD_5032-2pin_5.0x3.2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">CTX1434CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B95F795</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">311-1.0MGRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B95F83B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>W5500</value>
+      <footprint>Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm</footprint>
+      <datasheet>http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5500:w5500_ds_v108e.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1278-1021-ND</field>
+      </fields>
+      <libsource lib="AlexComponents" part="W5500" description="10/100 Ethernet Controller with TCP/IP Stack"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B962B9D</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1921-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B974852</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1012-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B977420</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1012-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B978BCC</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1012-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B978BFC</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1012-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B978C2A</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1012-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B978C5A</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>18p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1089-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9B507B</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>18p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1089-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9B521C</tstamp>
+    </comp>
+    <comp ref="X2">
+      <value>Conn_01x10</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9C02F9</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>Conn_01x10</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9C05B3</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AlexComponents" part="W5500">
+      <description>10/100 Ethernet Controller with TCP/IP Stack</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W5500</field>
+        <field name="Footprint">Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm</field>
+        <field name="Datasheet">http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5500:w5500_ds_v108e.pdf</field>
+        <field name="DigiKey Part Number">1278-1021-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXON" type="output"/>
+        <pin num="2" name="TXOP" type="output"/>
+        <pin num="3" name="AGND" type="power_in"/>
+        <pin num="4" name="AVDD" type="power_in"/>
+        <pin num="5" name="RXIN" type="input"/>
+        <pin num="6" name="RXIP" type="input"/>
+        <pin num="7" name="DNC" type="NotConnected"/>
+        <pin num="8" name="AVDD" type="power_in"/>
+        <pin num="9" name="AGND" type="power_in"/>
+        <pin num="10" name="EXRES" type="output"/>
+        <pin num="11" name="AVDD" type="power_in"/>
+        <pin num="12" name="NC" type="NotConnected"/>
+        <pin num="13" name="NC" type="NotConnected"/>
+        <pin num="14" name="AGND" type="power_in"/>
+        <pin num="15" name="AVDD" type="power_in"/>
+        <pin num="16" name="AGND" type="power_in"/>
+        <pin num="17" name="AVDD" type="power_in"/>
+        <pin num="18" name="VBG" type="power_out"/>
+        <pin num="19" name="AGND" type="power_in"/>
+        <pin num="20" name="TOCAP" type="output"/>
+        <pin num="21" name="AVDD" type="power_in"/>
+        <pin num="22" name="1V2O" type="power_out"/>
+        <pin num="23" name="RSVD" type="NotConnected"/>
+        <pin num="24" name="SPDLED" type="output"/>
+        <pin num="25" name="LINKLED" type="output"/>
+        <pin num="26" name="DUPLED" type="output"/>
+        <pin num="27" name="ACTLED" type="output"/>
+        <pin num="28" name="VDD" type="power_in"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="XI" type="input"/>
+        <pin num="31" name="XO" type="input"/>
+        <pin num="32" name="CS" type="input"/>
+        <pin num="33" name="SCLK" type="input"/>
+        <pin num="34" name="MISO" type="output"/>
+        <pin num="35" name="MOSI" type="input"/>
+        <pin num="36" name="INT" type="output"/>
+        <pin num="37" name="RESET" type="input"/>
+        <pin num="38" name="RSVD" type="NotConnected"/>
+        <pin num="39" name="RSVD" type="NotConnected"/>
+        <pin num="40" name="RSVD" type="NotConnected"/>
+        <pin num="41" name="RSVD" type="NotConnected"/>
+        <pin num="42" name="RSVD" type="NotConnected"/>
+        <pin num="43" name="PMODE2" type="input"/>
+        <pin num="44" name="PMODE1" type="input"/>
+        <pin num="45" name="PMODE0" type="input"/>
+        <pin num="46" name="NC" type="NotConnected"/>
+        <pin num="47" name="NC" type="NotConnected"/>
+        <pin num="48" name="AGND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x10">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AlexComponents">
+      <uri>C:/Users/eeale/Dropbox/Software/KiCAD/AlexComponents.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="R2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="X1" pin="9"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U1" pin="19"/>
+      <node ref="U1" pin="16"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U1" pin="29"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="48"/>
+      <node ref="X1" pin="10"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="2" name="TXON">
+      <node ref="U1" pin="1"/>
+      <node ref="X1" pin="4"/>
+    </net>
+    <net code="3" name="PMODE0">
+      <node ref="U1" pin="45"/>
+      <node ref="X1" pin="3"/>
+    </net>
+    <net code="4" name="PMODE1">
+      <node ref="U1" pin="44"/>
+      <node ref="X1" pin="2"/>
+    </net>
+    <net code="5" name="PMODE2">
+      <node ref="U1" pin="43"/>
+      <node ref="X1" pin="1"/>
+    </net>
+    <net code="6" name="SCLK">
+      <node ref="U1" pin="33"/>
+      <node ref="X2" pin="5"/>
+    </net>
+    <net code="7" name="MOSI">
+      <node ref="U1" pin="35"/>
+      <node ref="X2" pin="3"/>
+    </net>
+    <net code="8" name="INT">
+      <node ref="U1" pin="36"/>
+      <node ref="X2" pin="2"/>
+    </net>
+    <net code="9" name="TXOP">
+      <node ref="X1" pin="5"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="10" name="RXIN">
+      <node ref="X1" pin="6"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="11" name="RXIP">
+      <node ref="X1" pin="7"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="12" name="+3V3">
+      <node ref="U1" pin="15"/>
+      <node ref="U1" pin="17"/>
+      <node ref="U1" pin="21"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="X1" pin="8"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U1" pin="28"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="13" name="/XI">
+      <node ref="R3" pin="1"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="U1" pin="30"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="14" name="CS">
+      <node ref="U1" pin="32"/>
+      <node ref="X2" pin="6"/>
+    </net>
+    <net code="15" name="RESET">
+      <node ref="U1" pin="37"/>
+      <node ref="X2" pin="1"/>
+    </net>
+    <net code="16" name="MISO">
+      <node ref="X2" pin="4"/>
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="17" name="SPDLED">
+      <node ref="U1" pin="24"/>
+      <node ref="X2" pin="10"/>
+    </net>
+    <net code="18" name="LINKLED">
+      <node ref="U1" pin="25"/>
+      <node ref="X2" pin="9"/>
+    </net>
+    <net code="19" name="DUPLED">
+      <node ref="X2" pin="8"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="20" name="ACTLED">
+      <node ref="X2" pin="7"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="21" name="/XCAP">
+      <node ref="C7" pin="1"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="23" name="/XO">
+      <node ref="Y1" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U1" pin="31"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="25" name="/1V2O">
+      <node ref="C6" pin="1"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="28" name="/XRES">
+      <node ref="U1" pin="10"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="29" name="Net-(U1-Pad42)">
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="30" name="Net-(U1-Pad41)">
+      <node ref="U1" pin="41"/>
+    </net>
+    <net code="31" name="Net-(U1-Pad40)">
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad39)">
+      <node ref="U1" pin="39"/>
+    </net>
+    <net code="33" name="Net-(U1-Pad38)">
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="35" name="Net-(U1-Pad47)">
+      <node ref="U1" pin="47"/>
+    </net>
+    <net code="36" name="Net-(U1-Pad46)">
+      <node ref="U1" pin="46"/>
+    </net>
+  </nets>
+</export>
