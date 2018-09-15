@@ -17,8 +17,8 @@ This project is a bear-bones development board for the W5500.  The goal is to al
 | R1        | 12.4k | 0603        | 311-12.4KHRCT-ND | 1        |
 | R2        | 1M    | 0603        | 311-1.0MGRCT-ND  | 1        |
 | C1-C6     | 100n  | 0603        | 1276-1012-1-ND   | 6        |
-| C7        | 10n   | 0603        | 1276-1921-1-ND   | 6        |
-| C8        | 4.7u  | 0603        | 1276-1907-1-ND   | 6        |
+| C7        | 10n   | 0603        | 1276-1921-1-ND   | 1        |
+| C8        | 4.7u  | 0603        | 1276-1907-1-ND   | 1        |
 | C8-C9     | 18p   | 0603        | 1276-1089-1-ND   | 2        |
 | Y1        | 25MHz | 5x3.2mm     | CTX1434CT-ND     | 1        |
 | X1-X2     | 1x10  | 2.54mm      |                  | 2        |
