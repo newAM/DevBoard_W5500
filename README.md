@@ -4,6 +4,7 @@ This project is a bear-bones development board for the W5500.  The goal is to al
 
 ## Media
 ![3D Rendering](DevBoard_W5500_Media/DevBoard_W5500_Render.png?raw=true)
+![3D Rendering](DevBoard_W5500_Media/DevBoard_W5500_Assembled.png?raw=true)
 
 ## Project Contents
 -  DevBoard_W5500_KiCAD - KiCad PCB and schematic files

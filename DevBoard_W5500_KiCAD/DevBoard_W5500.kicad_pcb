@@ -734,12 +734,12 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm locked (layer B.Cu) (tedit 59650532) (tstamp 5B943C41)
+  (module Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm locked (layer B.Cu) (tedit 5B948F0F) (tstamp 5B943C41)
     (at 119.38 66.04 180)
     (descr "Through hole straight pin header, 1x10, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x10 2.54mm single row")
     (path /5B9C05B3)
-    (fp_text reference X1 (at 0 2.54 180) (layer B.SilkS)
+    (fp_text reference X1 (at 0 2.54 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value Conn_01x10 (at 0 -25.19 180) (layer B.Fab)
@@ -790,12 +790,12 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm locked (layer B.Cu) (tedit 59650532) (tstamp 5B943C5F)
+  (module Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm locked (layer B.Cu) (tedit 5B948F17) (tstamp 5B943C5F)
     (at 142.24 66.04 180)
     (descr "Through hole straight pin header, 1x10, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x10 2.54mm single row")
     (path /5B9C02F9)
-    (fp_text reference X2 (at 0 2.54 180) (layer B.SilkS)
+    (fp_text reference X2 (at 0 2.54 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value Conn_01x10 (at 0 -25.19 180) (layer B.Fab)
