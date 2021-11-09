@@ -25,4 +25,4 @@ This project is a bear-bones development board for the W5500.  The goal is to al
 | X1-X2     | 1x10  | 2.54mm      |                  | 2        |
 
 ## Software Used
-- [KiCad](http://kicad-pcb.org/) 5.0.0 release
+- [KiCad](http://kicad.org/) 5.0.0 release
